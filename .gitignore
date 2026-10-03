@@ -1,3 +1,28 @@
+# Virtual environments
 .venv/
+venv/
+env/
+
+# Python cache
 __pycache__/
+*.pyc
+*.pyo
+
+# Data output (large files — run scraper.py to generate)
 data/
+
+# Probe / debug scripts (used during development only)
+probe*.py
+check_csv.py
+
+# Submission docs (assignment-specific)
+SUBMISSION_NOTE.md
+SUBMISSION_REPORT.md
+
+# Playwright browser state
+playwright-report/
+test-results/
+
+# OS
+.DS_Store
+Thumbs.db
